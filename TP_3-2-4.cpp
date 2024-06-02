@@ -53,7 +53,7 @@ void diferencia()
     cin >> y;
     dif = x - y;
     cout << "La diferencia es: " << dif << endl;
-    if (dif <= 10)
+    if ((dif <= 10) && (dif >= 0))
     {   
         cout << "Los numeros entre " << y << " y " << x << " son: " << endl;
         for (int i = y; i <= x; i++)
